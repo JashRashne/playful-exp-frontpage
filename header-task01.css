@@ -1,0 +1,94 @@
+
+.head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    margin-top: 25px;
+    grid-template-columns: 1fr 1fr;
+}
+.linkedin-logo
+{
+    height: 45px;
+    padding-top: 2px;
+}
+.github-logo
+{
+    height: 40px;
+    border-radius: 25px;
+}
+.left-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.right-section
+{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex: 1;
+    margin-left: 15px;
+    column-gap: 20px;
+}
+.github-container
+{
+    flex: 1;
+    padding-left: 3px;
+}
+.linkedin-container
+{
+    flex: 1;
+    margin-left: -10px ;
+}
+.resume-text
+{
+    flex: 1;
+    padding-left: 2px;
+    font-size: 23px;
+    padding-bottom: 0;
+}
+.resume-link
+{
+    text-decoration: none;
+    color: white;
+}
+.name-front
+{
+    font-size: 33px;
+    font-weight: bold;
+    opacity: 100;
+    z-index: 100;
+}
+.name-front:hover
+{
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.25s;
+}
+.name-hover-container
+{
+    margin-left: -86px;
+    opacity: 0;
+
+}
+.name-hover
+{
+    font-size: 33px;
+    font-weight: bold;
+    opacity: 100;
+    z-index: 100;
+}
+.name-front:hover ~ .name-hover-container
+{
+    opacity: 1;
+    transition: 0.25s;
+}

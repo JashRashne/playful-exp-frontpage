@@ -1,0 +1,94 @@
+@media (max-width: 1160px)
+{
+    .jash-pfp
+    {
+        height: 250px;
+    }
+    .intro-text-p
+    {
+        font-size: 70px;
+    }
+    .name-subtitle
+    {
+        font-size: 20px;
+    }
+    .projects-text
+    {
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+    }
+    .down-arrow
+    {
+        height: 20px;
+    }
+    .linkedin-logo
+    {
+        height: 35px;
+        padding-top: 2px;
+    }
+    .github-logo
+    {
+        height: 30px;
+        border-radius: 25px;
+    }
+    .resume-text
+    {
+        font-size: 18px;
+    }
+    .name-front
+    {
+        font-size: 27px;
+    }
+    .name-hover
+    {
+        font-size: 27px;
+    }
+}
+@media (min-width: 1760px)
+{
+    .jash-pfp
+    {
+        height: 390px;
+    }
+    .intro-text-p
+    {
+        font-size: 90px;
+    }
+    .name-subtitle
+    {
+        font-size: 39px;
+    }
+    .projects-text
+    {
+        text-align: center;
+        font-size: 28px;
+        margin: 0;
+    }
+    .down-arrow
+    {
+        height: 35px;
+    }
+    .linkedin-logo
+    {
+        height: 55px;
+        padding-top: 2px;
+    }
+    .github-logo
+    {
+        height: 50px;
+        border-radius: 25px;
+    }
+    .resume-text
+    {
+        font-size: 30px;
+    }
+    .name-front
+    {
+        font-size: 40px;
+    }
+    .name-hover
+    {
+        font-size: 40px;
+    }
+}
